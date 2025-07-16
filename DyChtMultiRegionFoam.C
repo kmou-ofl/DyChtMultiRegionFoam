@@ -25,7 +25,7 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Application
-    chtMultiRegionFoam
+    DyChtMultiRegionFoam
 
 Group
     grpHeatTransferSolvers
@@ -36,6 +36,8 @@ Description
 
     It handles secondary fluid or solid circuits which can be coupled
     thermally with the main fluid region. i.e radiators, etc.
+
+    dynamic mesh motion is supported.
 
 \*---------------------------------------------------------------------------*/
 
